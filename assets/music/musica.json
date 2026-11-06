@@ -1,0 +1,51 @@
+{
+ "menu": {
+  "archivo": "menu.mp3",
+  "ini": 0.20898,
+  "fin": 106.866939
+ },
+ "dia": {
+  "archivo": "dia.mp3",
+  "ini": 0.20898,
+  "fin": 87.484082
+ },
+ "tarde": {
+  "archivo": "tarde.mp3",
+  "ini": 0.20898,
+  "fin": 101.250612
+ },
+ "noche": {
+  "archivo": "noche.mp3",
+  "ini": 0.20898,
+  "fin": 99.526531
+ },
+ "navidad": {
+  "archivo": "navidad.mp3",
+  "ini": 0.20898,
+  "fin": 80.195918
+ },
+ "champions": {
+  "archivo": "champions.mp3",
+  "ini": 0.20898,
+  "fin": 100.205714
+ },
+ "rafi": {
+  "archivo": "rafi.mp3",
+  "ini": 0.20898,
+  "fin": 83.278367
+ },
+ "alberto": {
+  "archivo": "alberto.mp3",
+  "ini": 0.20898,
+  "fin": 96.20898
+ },
+ "final": {
+  "archivo": "final.mp3",
+  "ini": 0.20898,
+  "fin": 120.21551
+ },
+ "hero": {
+  "archivo": "hero.m4a",
+  "vol": 1.1
+ }
+}

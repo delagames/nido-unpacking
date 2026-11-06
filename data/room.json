@@ -1,0 +1,588 @@
+{
+ "board": {
+  "w": 1584,
+  "h": 816
+ },
+ "plano": "La distribución de assets/ref/plano-sotano.jpg, con las habitaciones a la medida de lo dibujado en ellas: sala 320×240, cuartillo 312×240, garaje 648×362.",
+ "surfaces": [
+  {
+   "id": "sala_suelo",
+   "zone": "2",
+   "kind": "floor",
+   "rect": [
+    180,
+    0,
+    320,
+    240
+   ]
+  },
+  {
+   "id": "cuartillo_suelo",
+   "zone": "3",
+   "kind": "floor",
+   "rect": [
+    508,
+    0,
+    312,
+    240
+   ],
+   "until": 6
+  },
+  {
+   "id": "garaje_suelo",
+   "zone": "4",
+   "kind": "floor",
+   "rect": [
+    180,
+    248,
+    648,
+    362
+   ]
+  },
+  {
+   "id": "cacharras",
+   "zone": "cacharras",
+   "kind": "floor",
+   "rect": [
+    610,
+    528,
+    160,
+    46
+   ],
+   "free": true
+  },
+  {
+   "id": "paso_sala",
+   "zone": "4",
+   "kind": "floor",
+   "rect": [
+    330,
+    240,
+    70,
+    8
+   ]
+  },
+  {
+   "id": "paso_cuartillo",
+   "zone": "3",
+   "kind": "floor",
+   "rect": [
+    640,
+    240,
+    56,
+    8
+   ]
+ ,
+   "until": 6
+  },
+  {
+   "id": "rampa_a",
+   "zone": "1-7",
+   "kind": "floor",
+   "rect": [
+    40,
+    0,
+    92,
+    490
+   ]
+  },
+  {
+   "id": "rampa_b",
+   "zone": "1-7",
+   "kind": "floor",
+   "rect": [
+    40,
+    490,
+    132,
+    56
+   ]
+  },
+  {
+   "id": "rampa_c",
+   "zone": "1-7",
+   "kind": "floor",
+   "rect": [
+    56,
+    546,
+    116,
+    20
+   ]
+  },
+  {
+   "id": "patio",
+   "zone": "1-7",
+   "kind": "floor",
+   "rect": [
+    56,
+    566,
+    116,
+    44
+   ]
+  },
+  {
+   "id": "plantas_izq",
+   "zone": "1-7",
+   "kind": "floor",
+   "rect": [
+    0,
+    0,
+    40,
+    546
+   ]
+  },
+  {
+   "id": "plantas_dcha",
+   "zone": "1-7",
+   "kind": "floor",
+   "rect": [
+    132,
+    0,
+    40,
+    490
+   ]
+  },
+  {
+   "id": "meadero",
+   "zone": "7",
+   "kind": "floor",
+   "rect": [
+    0,
+    546,
+    56,
+    64
+   ]
+  },
+  {
+   "id": "porton",
+   "zone": "1",
+   "kind": "wall",
+   "wall": {
+    "side": "n",
+    "at": 0
+   },
+   "rect": [
+    32,
+    8,
+    124,
+    78
+   ]
+  },
+  {
+   "id": "sala_pared",
+   "zone": "2",
+   "kind": "wall",
+   "wall": {
+    "side": "n",
+    "at": 0
+   },
+   "rect": [
+    182,
+    10,
+    316,
+    80
+   ]
+  },
+  {
+   "id": "cuartillo_pared",
+   "zone": "3",
+   "kind": "wall",
+   "wall": {
+    "side": "n",
+    "at": 0
+   },
+   "rect": [
+    510,
+    10,
+    308,
+    80
+   ],
+   "until": 6
+  },
+  {
+   "id": "cuartillo_pared_e",
+   "zone": "3",
+   "kind": "wall",
+   "wall": {
+    "side": "e",
+    "at": 820
+   },
+   "rect": [
+    4,
+    10,
+    232,
+    80
+   ],
+   "until": 6
+  },
+  {
+   "id": "garaje_pared",
+   "zone": "4",
+   "kind": "wall",
+   "wall": {
+    "side": "e",
+    "at": 828
+   },
+   "rect": [
+    252,
+    10,
+    204,
+    80
+   ]
+  },
+  {
+   "id": "sala_pared_e",
+   "zone": "2",
+   "kind": "wall",
+   "wall": {
+    "side": "e",
+    "at": 500,
+    "alta": true
+   },
+   "rect": [4, 10, 232, 80],
+   "from": 6
+  },
+  {
+   "id": "garaje_pared_n",
+   "zone": "4",
+   "kind": "wall",
+   "wall": {
+    "side": "n",
+    "at": 248,
+    "alta": true
+   },
+   "rect": [510, 10, 126, 80],
+   "from": 6
+  },
+  {
+   "id": "garaje_pared_n2",
+   "zone": "4",
+   "kind": "wall",
+   "wall": {
+    "side": "n",
+    "at": 248,
+    "alta": true
+   },
+   "rect": [698, 10, 126, 80],
+   "from": 6
+  },
+  {
+   "id": "arcon_sitio",
+   "zone": "6",
+   "kind": "floor",
+   "rect": [
+    780,
+    256,
+    42,
+    72
+   ]
+  },
+  {
+   "id": "detras_arcon",
+   "zone": "6",
+   "kind": "top",
+   "z": 0,
+   "rect": [
+    794,
+    332,
+    28,
+    22
+   ]
+  }
+ ],
+ "props": [
+  {
+   "id": "naranjo",
+   "rect": [
+    14,
+    526,
+    20,
+    20
+   ],
+   "h": 70
+  }
+ ],
+ "obstacles": [
+  {
+   "id": "naranjo",
+   "rect": [
+    14,
+    526,
+    20,
+    20
+   ]
+  },
+  {
+   "id": "cacharras_monton",
+   "rect": [
+    603,
+    576,
+    187,
+    34
+   ]
+  }
+ ],
+ "zones": [
+  {
+   "name": "El arcón",
+   "rect": [
+    762,
+    248,
+    74,
+    90
+   ]
+  },
+  {
+   "name": "Las cacharras",
+   "rect": [
+    610,
+    556,
+    218,
+    62
+   ]
+  },
+  {
+   "name": "La escalera",
+   "rect": [
+    752,
+    440,
+    130,
+    100
+   ]
+  },
+  {
+   "name": "El portón",
+   "rect": [
+    0,
+    0,
+    176,
+    90
+   ]
+  },
+  {
+   "name": "El meadero",
+   "rect": [
+    0,
+    470,
+    60,
+    148
+   ]
+  },
+  {
+   "name": "La rampa",
+   "rect": [
+    0,
+    0,
+    176,
+    618
+   ]
+  },
+  {
+   "name": "La sala",
+   "rect": [
+    176,
+    0,
+    328,
+    244
+   ]
+  },
+  {
+   "name": "El cuartillo",
+   "rect": [
+    504,
+    0,
+    332,
+    244
+   ],
+   "desde": {
+    "n": 6,
+    "name": "El cuartillo del Alberto"
+   }
+  },
+  {
+   "name": "El garaje",
+   "rect": [
+    176,
+    244,
+    700,
+    374
+   ]
+  }
+ ],
+ "pila": {
+  "base": [
+   [
+    690,
+    418
+   ],
+   [
+    732,
+    418
+   ],
+   [
+    690,
+    377
+   ],
+   [
+    732,
+    377
+   ]
+  ],
+  "encima": [
+   [
+    732,
+    377
+   ],
+   [
+    690,
+    377
+   ],
+   [
+    732,
+    418
+   ],
+   [
+    690,
+    418
+   ]
+  ]
+ },
+ "maria": [
+  596,
+  470
+ ],
+ "car": {
+  "pos": [
+   380,
+   480
+  ],
+  "w": 172,
+  "d": 76,
+  "h": 84
+ },
+ "carRampa": {
+  "pos": [
+   48,
+   120
+  ],
+  "w": 76,
+  "d": 172,
+  "h": 84,
+  "flip": true
+ },
+ "naranjoAncla": [
+  48,
+  118
+ ],
+ "monton": {
+  "x": 603,
+  "y": 576,
+  "w": 187,
+  "d": 34,
+  "h": 80
+ },
+ "alberto": {
+  "x": 762,
+  "y": 92,
+  "row": 7
+ },
+ "pcAlberto": {
+  "x": 736,
+  "y": 30,
+  "w": 56,
+  "d": 45,
+  "h": 41
+ },
+ "cierre": 6,
+ "destrozos": [
+  { "img": "papeles", "w": 64, "d": 46, "h": 3, "x": 606, "y": 92, "desde": 6 },
+  { "img": "latas", "w": 34, "d": 28, "h": 4, "x": 642, "y": 16, "desde": 6 },
+  { "img": "diana", "w": 30, "d": 22, "h": 34, "x": 694, "y": 8, "desde": 6 },
+  { "img": "bolsa", "w": 26, "d": 24, "h": 28, "x": 606, "y": 10, "desde": 6 },
+  { "img": "dardos", "w": 30, "d": 24, "h": 4, "x": 672, "y": 44, "desde": 6 },
+  { "img": "silla_rota", "w": 44, "d": 34, "h": 24, "x": 640, "y": 54, "desde": 7 },
+  { "img": "bolsa2", "w": 26, "d": 24, "h": 28, "x": 566, "y": 14, "desde": 8 },
+  { "img": "saco", "w": 48, "d": 40, "h": 78, "x": 700, "y": 92, "desde": 9 },
+  { "img": "papeles2", "w": 84, "d": 60, "h": 3, "x": 740, "y": 128, "desde": 9 },
+  { "img": "mesa_rota", "w": 70, "d": 44, "h": 26, "x": 622, "y": 98, "desde": 10 },
+  { "img": "latas", "w": 34, "d": 28, "h": 4, "x": 782, "y": 110, "desde": 10 },
+  { "img": "bolsa", "w": 26, "d": 24, "h": 28, "x": 786, "y": 72, "desde": 10, "hasta": 11 },
+  { "img": "escombros", "w": 54, "d": 40, "h": 16, "x": 600, "y": 44, "desde": 10, "hasta": 11 },
+  { "img": "bolsa", "w": 26, "d": 24, "h": 28, "x": 786, "y": 72, "desde": 12 },
+  { "img": "escombros", "w": 54, "d": 40, "h": 16, "x": 600, "y": 44, "desde": 12 },
+  { "img": "escombros2", "w": 92, "d": 64, "h": 30, "x": 598, "y": 6, "desde": 13 },
+  { "img": "bolsa2", "w": 26, "d": 24, "h": 28, "x": 712, "y": 56, "desde": 13 },
+  { "img": "silla_rota", "w": 44, "d": 34, "h": 24, "x": 550, "y": 90, "desde": 13 },
+  { "img": "escombros", "w": 54, "d": 40, "h": 16, "x": 770, "y": 176, "desde": 13 }
+ ],
+ "murosCerrado": [
+  [640, 240, 56, 8]
+ ],
+ "muros": [
+  [
+   0,
+   -8,
+   828,
+   8
+  ],
+  [
+   820,
+   0,
+   8,
+   248
+  ],
+  [
+   828,
+   248,
+   8,
+   212
+  ],
+  [
+   828,
+   460,
+   8,
+   72
+  ],
+  [
+   828,
+   532,
+   8,
+   78
+  ],
+  [
+   172,
+   0,
+   8,
+   610
+  ],
+  [
+   500,
+   0,
+   8,
+   240
+  ],
+  [
+   180,
+   240,
+   150,
+   8
+  ],
+  [
+   400,
+   240,
+   240,
+   8
+  ],
+  [
+   696,
+   240,
+   132,
+   8
+  ],
+  [
+   0,
+   610,
+   836,
+   8
+  ]
+ ]
+}

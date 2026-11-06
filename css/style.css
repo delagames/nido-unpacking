@@ -1,0 +1,66 @@
+@font-face { font-family: "Pixelify Sans"; src: url("../assets/fonts/PixelifySans-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Pixelify Sans"; src: url("../assets/fonts/PixelifySans-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Silkscreen"; src: url("../assets/fonts/Silkscreen-Regular.ttf"); }
+@font-face { font-family: "Patrick Hand"; src: url("../assets/fonts/PatrickHand-Regular.ttf"); }
+
+html, body {
+  margin: 0; height: 100%; overflow: hidden;
+  background: #1E1A22;
+  overscroll-behavior: none;
+  -webkit-user-select: none; user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+body { display: flex; align-items: center; justify-content: center; height: 100dvh; }
+canvas { display: block; touch-action: none; image-rendering: crisp-edges; image-rendering: pixelated; }
+
+.cine { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; z-index: 5; }
+.saltar {
+  position: fixed; right: 16px; bottom: 16px; z-index: 6; padding: 12px 18px;
+  font: 700 18px "Pixelify Sans", sans-serif; color: #F4EDDD; background: rgba(0, 0, 0, .55);
+  border: 2px solid #F4EDDD; border-radius: 4px;
+}
+
+/* El nombre de la foto: arriba, para que el teclado del móvil no lo tape. */
+.nombre-foto {
+  position: fixed; inset: 0; z-index: 7; display: flex; justify-content: center; align-items: flex-start;
+  padding: 12dvh 16px 0; box-sizing: border-box; background: rgba(20, 16, 22, .72);
+}
+.nombre-tarjeta {
+  width: 100%; max-width: 420px; box-sizing: border-box; padding: 20px; color: #2B2420;
+  background: #F4EBD9; border-top: 5px solid #D98A4B; box-shadow: 4px 5px 0 #2B2420;
+  font: 400 20px "Pixelify Sans", sans-serif;
+}
+.nombre-tarjeta label { display: block; font-weight: 700; font-size: 24px; }
+.nombre-tarjeta p { margin: 8px 0 14px; }
+.nombre-tarjeta input {
+  width: 100%; box-sizing: border-box; padding: 12px; font: 400 20px "Pixelify Sans", sans-serif;
+  color: #2B2420; background: #fff; border: 2px solid #2B2420; border-radius: 0;
+  -webkit-user-select: text; user-select: text;
+}
+.nombre-botones { display: flex; gap: 12px; margin-top: 16px; }
+.nombre-botones button {
+  flex: 1; min-height: 52px; font: 700 22px "Pixelify Sans", sans-serif; color: #2B2420;
+  border: 0; border-radius: 0; box-shadow: 0 3px 0 #2B2420;
+}
+.nombre-botones .no { background: #C9B999; }
+.nombre-botones .si { background: #D98A4B; }
+
+/* Música y voces: cada escena dice dónde va (main.js). Mide 48 px o más; fuera de vídeos, notas y diálogos. */
+.boton-musica {
+  position: fixed; z-index: 4; padding: 3px 0 0; box-sizing: border-box;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  color: #2B2420; background: #C9B999; border: 0; border-radius: 0; box-shadow: 0 3px 0 #2B2420;
+  font: 11px Silkscreen, sans-serif; line-height: 1;
+  touch-action: manipulation;
+}
+.boton-musica[hidden] { display: none; }
+.boton-musica svg { display: block; shape-rendering: crispEdges; }
+.boton-musica .tacha { display: none; }
+.boton-musica.apagada { background: #A89A85; }
+.boton-musica.apagada .tacha { display: inline; }
+.aviso-musica {
+  position: fixed; z-index: 4; padding: 6px 10px; pointer-events: none; white-space: nowrap;
+  color: #F4EBD9; background: #2B2420; font: 18px "Pixelify Sans", sans-serif;
+}
+.aviso-musica[hidden] { display: none; }

@@ -1,0 +1,1296 @@
+{
+ "chapters": [
+  {
+   "n": 1,
+   "title": "El encargo",
+   "when": "Otoño, año 1",
+   "car": "pajero",
+   "luz": "sol",
+   "musica": "dia",
+   "encargo": "Que esto parezca una casa y no una pocilga. Y el ordenador no se toca. Ni se te ocurra abrirlo.",
+   "sueltos": [
+    {
+     "id": "arcon",
+     "x": 70,
+     "y": 280
+    }
+   ],
+   "manoloDice": "Ese arcón pesa una pila. No lo pegues a la pared, que no abre.",
+   "boxes": [
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nLo que quieras. Menos el ordenador. Gracias por venir. Tengo todas las de El Señor de los Anillos si te quieres quedar.\nI."
+     },
+     "items": [
+      {
+       "id": "sofa_viejo"
+      },
+      {
+       "id": "tele_tubo"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "escritorio"
+      },
+      {
+       "id": "estanteria_metal"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "lampara"
+      },
+      {
+       "id": "cachimba_peq"
+      },
+      {
+       "id": "reloj"
+      }
+     ]
+    },
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nLas bolitas son de mis amigos. No las tires. Bueno, tira algunas.\nI."
+     },
+     "items": [
+      {
+       "id": "bolita",
+       "n": 12
+      }
+     ]
+    }
+   ],
+   "manolo": null,
+   "end": {
+    "lines": [
+     {
+      "p": "Normal",
+      "t": "Bueno."
+     }
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "title": "Blu-rays",
+   "when": "Invierno, año 1",
+   "car": "pajero",
+   "luz": "nublado",
+   "musica": "noche",
+   "encargo": "Ahora tengo dinero. Quiero una estantería como las de las Comic Stores.",
+   "rafi": "Niña,\nQué bien lo dejaste. Mi Ismaelito está contentísimo. Te he dejado un bizcocho arriba. Si al comerlo te mareas no te preocupes que es por la harina que uso. Pero es normal vaya.\nLa Rafi",
+   "boxes": [
+    {
+     "items": [
+      {
+       "id": "estanteria_alta",
+       "n": 2
+      },
+      {
+       "id": "ventilador"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "pack_lotr"
+      },
+      {
+       "id": "pack_sw"
+      },
+      {
+       "id": "pack_hp"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "poster_lotr"
+      },
+      {
+       "id": "poster_sw"
+      },
+      {
+       "id": "poster_hp"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "figura_dragonite"
+      },
+      {
+       "id": "figura_salamence"
+      },
+      {
+       "id": "figura_garchomp"
+      },
+      {
+       "id": "figura_haxorus"
+      },
+      {
+       "id": "figura_rayquaza"
+      }
+     ]
+    },
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nEl de Amélie es para ti. Me dijiste una vez que te gustaba. (No me lo dijiste a mí, se lo dijiste a Manolo, pero lo oí.)\nI."
+     },
+     "items": [
+      {
+       "id": "bluray_amelie"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 800,
+    "y": 496,
+    "row": 6
+   },
+   "end": {
+    "lines": [
+     {
+      "p": "Surprised",
+      "t": "Amélie."
+     },
+     {
+      "p": "Pain",
+      "t": "Este chaval es así."
+     }
+    ]
+   },
+   "manoloHabla": [
+    "Yo solo subo y bajo.",
+    "Esa estantería no la ha montado él."
+   ],
+   "juanjoEscondido": [
+    800,
+    590,
+    6
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Las rosas",
+   "when": "Primavera, año 2",
+   "car": "pajero",
+   "luz": "sol",
+   "musica": "dia",
+   "encargo": "Un sofá nuevo. De los buenos. Bien mullidito, tú ya me entiendes.",
+   "rafi": "Niña,\nLas rosas las compró él solo. Yo no le dije nada. Bueno, le dije la floristería y se las encargué pero vaya que fue Joaquín a recogerlas.\nLa Rafi",
+   "rafiSiSagas": "\nP.D. Dice que has ordenado las películas como él las tenía en la cabeza.",
+   "boxes": [
+    {
+     "items": [
+      {
+       "id": "sofa_nuevo"
+      },
+      {
+       "id": "mesa_baja"
+      }
+     ]
+    },
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nLas rosas son azules porque tú una vez dijiste que eran tus favoritas. No hace falta que digas nada.\nI."
+     },
+     "items": [
+      {
+       "id": "rosas_azules"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "mesa_grande"
+      },
+      {
+       "id": "risk"
+      },
+      {
+       "id": "mancuerna",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "camisetas"
+      },
+      {
+       "id": "palo_madera"
+      },
+      {
+       "id": "papelera"
+      },
+      {
+       "id": "alfombra"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "anillo"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 220,
+    "y": 170,
+    "row": 2
+   },
+   "end": {
+    "lines": [
+     {
+      "p": "Pain",
+      "t": "Son azules. Claro que son azules."
+     }
+    ]
+   },
+   "manoloAlSacar": {
+    "rosas_azules": "No tienes que colocar las rosas si no quieres."
+   },
+   "manoloHabla": [
+    "Este sofá aún aguanta.",
+    "Pesa más de lo que dijo."
+   ],
+   "juanjoEscondido": [
+    700,
+    300,
+    0
+   ]
+  },
+  {
+   "n": 4,
+   "title": "La cachimba",
+   "when": "Verano, año 2",
+   "car": "accord",
+   "luz": "atardecer",
+   "musica": "tarde",
+   "encargo": "Me han dado un coche. No le pongas nada encima. Y viene una cachimba.",
+   "rafi": "Niña,\n¿Te has montao ya en el coche? Se tira todo el día fumando porro aguao con el chupeteo. Dile si puedes, hazme el favor, que deje de fumar como el Jorge.\nLa Rafi",
+   "boxes": [
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nLa cachimba es la segunda más cara de la web. Podía haber comprado la primera. Siéntate donde quieras, la manguera llega.\nI."
+     },
+     "items": [
+      {
+       "id": "cachimba_grande"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "tabaco"
+      },
+      {
+       "id": "carbones"
+      },
+      {
+       "id": "vaper"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "pepsi"
+      },
+      {
+       "id": "puleva",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "planta_monstera"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "tele_plana"
+      },
+      {
+       "id": "mueble_tele"
+      },
+      {
+       "id": "platos_sucios"
+      }
+     ],
+     "at": [
+      330,
+      120
+     ],
+     "sentado": true
+    }
+   ],
+   "manolo": {
+    "x": 470,
+    "y": 360,
+    "row": 2
+   },
+   "juanjo": {
+    "x": 340,
+    "y": 130,
+    "row": 0
+   },
+   "end": {
+    "lines": [
+     {
+      "p": "Determined",
+      "t": "Ojalá algún día lave las mangueras de la cachimba."
+     }
+    ]
+   },
+   "manoloHabla": [
+    "Ese de ahí no se va a mover.",
+    "Al coche ni lo mires."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Maratón",
+   "when": "Final de verano, año 2",
+   "car": "accord",
+   "luz": "atardecer",
+   "musica": "noche",
+   "encargo": "Noche de sagas. Las tres, enteras. Viene todo el mundo. Que no falte sitio.",
+   "rafi": "María,\nHe hecho tortilla para doce. Él dice que doce. Yo no he dicho nada.\nLa Rafi",
+   "boxes": [
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nEl sábado a las nueve empezamos por la extendida. Son cincuenta y tres horas sin contar los extras. He avisado a todos por el grupo. Lo han visto.\nI."
+     },
+     "items": [
+      {
+       "id": "proyector"
+      },
+      {
+       "id": "pantalla"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "puf"
+      },
+      {
+       "id": "cojin",
+       "n": 3
+      },
+      {
+       "id": "lampara_lava"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "consola"
+      },
+      {
+       "id": "palomitas",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "cabina"
+      },
+      {
+       "id": "estrella_muerte"
+      },
+      {
+       "id": "sable_laser"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 730,
+    "y": 500,
+    "row": 6
+   },
+   "manoloHabla": [
+    "Eso son muchas palomitas.",
+    "El sábado trabajo."
+   ],
+   "end": {
+    "estampa": [
+     "Sábado, nueve y cuarto.",
+     "Sábado, once y media.",
+     "Domingo, tres y diez. Va por Las dos torres."
+    ],
+    "lines": [
+     {
+      "p": "Sad",
+      "t": "Los cuatro cubos siguen llenos."
+     },
+     {
+      "p": "Pain",
+      "t": "Le diré que había tráfico."
+     }
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "title": "El cuartillo",
+   "when": "Otoño, año 2",
+   "car": "pajero",
+   "luz": "nublado",
+   "musica": "alberto",
+   "encargo": "Mi hermano el Alberto se ha quedado con el cuartillo. No me preguntes. Todo lo que había dentro está en cajas.",
+   "rafi": "Niña,\nEl sábado le han dado una cena en el trabajo y va a ir solo. Lo digo por si alguien quisiera acompañarle.\nLa Rafi",
+   "vaciaCuartillo": true,
+   "ayudaManolo": true,
+   "boxes": [
+    {
+     "items": [
+      {
+       "id": "raton_gamer"
+      },
+      {
+       "id": "taza_negra"
+      },
+      {
+       "id": "plato_sucio"
+      },
+      {
+       "id": "papelera_llena"
+      },
+      {
+       "id": "pepsi_media"
+      },
+      {
+       "id": "cacharra",
+       "n": 3
+      },
+      {
+       "id": "cacharra_5l",
+       "n": 3
+      }
+     ],
+     "note": {
+      "de": "buitre",
+      "t": "María,\nEstas cacharras las iba a cargar mi hermano si perdía al Guild Wars. No perdió. No me preguntes.\nI."
+     }
+    },
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nNo abras el cuaderno. Si lo abrieras descubrirías algo impresionante. Descubrirías mi alma.\nI."
+     },
+     "items": [
+      {
+       "id": "cuaderno_negro"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 310,
+    "y": 190,
+    "row": 2
+   },
+   "manoloDice": "Si algo no cabe, déjalo a mi lado. Y las de ocho abajo y las de cinco encima, que si no se viene abajo el montón.",
+   "end": {
+    "lines": [
+     {
+      "p": "Pain",
+      "t": "Se oye el Guild Wars a través de la puerta."
+     },
+     {
+      "p": "Sad",
+      "t": "Vale."
+     }
+    ],
+    "cuadernoNegro": true
+   },
+   "manoloHabla": [
+    "Si algo no cabe, déjalo a mi lado.",
+    "Las de ocho abajo."
+   ],
+   "juanjoEscondido": [
+    200,
+    590,
+    2
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Champions Beer",
+   "when": "Final de otoño, año 2",
+   "car": "accord",
+   "luz": "noche",
+   "musica": "champions",
+   "encargo": "Hay partido. Vienen estos. Que haya dónde dejar los botellines.",
+   "rafi": "María,\nQue no beba mucho, que luego canta. Y que le digan que canta bien, por lo menos.\nLa Rafi",
+   "boxes": [
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nEsta vez sí vienen. Lo he comprobado. Es por la cerveza, pero vienen.\nI."
+     },
+     "items": [
+      {
+       "id": "mini_nevera"
+      },
+      {
+       "id": "botellines"
+      },
+      {
+       "id": "anacardos"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "diana"
+      },
+      {
+       "id": "chapas"
+      },
+      {
+       "id": "tarro_chapas"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "foto_champions"
+      }
+     ]
+    }
+   ],
+   "visitas": [
+    {
+     "id": "0094",
+     "who": "samuel",
+     "nombre": "Samuel",
+     "x": 300,
+     "y": 200,
+     "row": 0,
+     "habla": [
+      "¿Quién va ganando?",
+      "Eso lo recojo yo mañana."
+     ]
+    },
+    {
+     "id": "0571",
+     "who": "jorge",
+     "nombre": "Jorge",
+     "x": 420,
+     "y": 200,
+     "row": 0,
+     "habla": [
+      "Yo aquí no he estado.",
+      "Esta ronda la pago yo. La siguiente."
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 360,
+    "y": 160,
+    "row": 0
+   },
+   "manoloHabla": [
+    "Mañana esto da pena.",
+    "Yo traigo bolsas."
+   ],
+   "juanjoEscondido": [
+    760,
+    320,
+    2
+   ],
+   "recogida": {
+    "banda": "Al día siguiente",
+    "luz": "sol",
+    "musica": "dia",
+    "manolo": {
+     "x": 610,
+     "y": 400,
+     "row": 0
+    },
+    "ayudaManolo": true,
+    "mariaDice": "«Eso lo recojo yo mañana», dijo. Ya.",
+    "manoloDice": "Yo aguanto la bolsa.",
+    "manoloHabla": [
+     "Esa la cojo yo.",
+     "Queda poco."
+    ],
+    "titulo": "LLÉVALO A LA BASURA",
+    "caja": {
+     "label": "Basura",
+     "at": [
+      720,
+      410
+     ]
+    },
+    "piezas": [
+     {
+      "id": "botellin_vacio",
+      "x": 300,
+      "y": 90
+     },
+     {
+      "id": "botellin_vacio",
+      "x": 440,
+      "y": 60
+     },
+     {
+      "id": "botellin_vacio",
+      "x": 250,
+      "y": 200
+     },
+     {
+      "id": "botellin_vacio",
+      "x": 360,
+      "y": 320
+     },
+     {
+      "id": "botellin_vacio",
+      "x": 620,
+      "y": 310
+     },
+     {
+      "id": "bolsa_patatas",
+      "x": 400,
+      "y": 170
+     },
+     {
+      "id": "bolsa_patatas",
+      "x": 520,
+      "y": 380
+     },
+     {
+      "id": "bolsa_patatas",
+      "x": 280,
+      "y": 420
+     }
+    ]
+   },
+   "end": {
+    "lines": [
+     {
+      "who": "manolo",
+      "t": "Ya está."
+     },
+     {
+      "p": "Happy",
+      "t": "Gracias, Manolo."
+     }
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "title": "Navidad en el sótano",
+   "when": "Navidad, año 2",
+   "car": "pajero",
+   "luz": "nublado",
+   "musica": "navidad",
+   "encargo": "Es Navidad hasta aquí abajo. La corona, en el portón. Los regalos no se abren.",
+   "rafi": "María,\nHay roscón arriba. Si se te duerme la lengua es del anís, que lo hago yo.\nLa Rafi",
+   "boxes": [
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nFeliz Navidad. El envuelto fino es Amélie, para que haga ilusión. Los otros no los abras aquí. Al de los agujeros que le dé el aire.\nI."
+     },
+     "items": [
+      {
+       "id": "bluray_amelie"
+      },
+      {
+       "id": "regalo_agujeros"
+      },
+      {
+       "id": "regalo_tubo",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "guirnalda"
+      },
+      {
+       "id": "corona"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "figura_vegeta"
+      },
+      {
+       "id": "camiseta_mago"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 650,
+    "y": 340,
+    "row": 7
+   },
+   "manoloHabla": [
+    "Feliz Navidad.",
+    "Eso no lo agites."
+   ],
+   "juanjoEscondido": [
+    440,
+    300,
+    0
+   ],
+   "end": {
+    "lines": [
+     {
+      "p": "Surprised",
+      "t": "..."
+     },
+     {
+      "p": "Pain",
+      "t": "Feliz Navidad."
+     }
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "title": "Lo que no se enseña",
+   "when": "Invierno, año 2",
+   "car": "accord",
+   "luz": "nublado",
+   "musica": "noche",
+   "encargo": "Hay una caja que no tenía que ir ahí. Si la ves, no la abras.",
+   "rafi": "Niña,\nYo no sé qué ha pasado pero él ha bajado a dejar una caja y ha subido blanco. Si te ha dicho algo raro, tú perdónalo, que es muy bueno.\nLa Rafi",
+   "boxes": [
+    {
+     "id": "prohibida",
+     "keep": true,
+     "label": "No abrir",
+     "note": {
+      "de": "buitre",
+      "t": "María,\nPerdona. Perdona por la caja. Lo del sujetador no es lo que parece. Lo demás sí. No puedo evitar ser un macho, espero que lo comprendas. Sé que gustáis de eso. De un macho.\nI."
+     },
+     "items": [
+      {
+       "id": "sujetador"
+      },
+      {
+       "id": "petaca"
+      },
+      {
+       "id": "foto_serresiete"
+      },
+      {
+       "id": "manuscrito"
+      },
+      {
+       "id": "pijama"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "collar"
+      },
+      {
+       "id": "caja_panuelos"
+      },
+      {
+       "id": "panuelos_monton"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "rosas_secas",
+       "si": "rosasGuardadas"
+      },
+      {
+       "id": "pizarrita"
+      }
+     ]
+    },
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nOtro Amélie. Por si se te rayó.\nI."
+     },
+     "items": [
+      {
+       "id": "bluray_amelie"
+      }
+     ]
+    }
+   ],
+   "notaSiRosasCacharras": "María,\nLas rosas no las encontré. Da igual.\nI.",
+   "manolo": {
+    "x": 640,
+    "y": 400,
+    "row": 2
+   },
+   "juanjoEscondido": [
+    200,
+    300,
+    2
+   ],
+   "end": {
+    "lines": [
+     {
+      "p": "Angry",
+      "t": "No."
+     },
+     {
+      "p": "Pain",
+      "t": "Este chaval es así."
+     }
+    ],
+    "manoloDice": "¿Nos vamos?"
+   },
+   "manoloHabla": [
+    "..."
+   ]
+  },
+  {
+   "n": 10,
+   "title": "Alberto sale",
+   "when": "Final de invierno, año 2",
+   "car": "accord",
+   "luz": "nublado",
+   "musica": "alberto",
+   "encargo": "Mi hermano sale un rato. Cuando abra, saca lo que puedas. Ni preguntes ni mires mucho.",
+   "rafi": "María,\nEl Alberto lleva tres días sin subir a comer. Si sale, dile que hay cocido.\nLa Rafi",
+   "boxes": [
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nHa dicho que sale. No sé cuánto. Lo del escritorio es mío, ponlo donde lo veas. Lo de dentro es suyo, pero sácalo igual.\nI."
+     },
+     "items": [
+      {
+       "id": "mesa_escritorio"
+      },
+      {
+       "id": "pc_nuevo"
+      },
+      {
+       "id": "silla_escritorio"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "sillon_gamer"
+      },
+      {
+       "id": "perchero"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "espejo"
+      },
+      {
+       "id": "planta_hojas"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 640,
+    "y": 380,
+    "row": 0
+   },
+   "manoloHabla": [
+    "Ese no sale.",
+    "Ya saldrá."
+   ],
+   "juanjoEscondido": [
+    300,
+    300,
+    2
+   ],
+   "recogida": {
+    "banda": "Se abre la puerta del cuartillo",
+    "luz": "nublado",
+    "puerta": true,
+    "manolo": {
+     "x": 610,
+     "y": 330,
+     "row": 0
+    },
+    "camara": [
+     668,
+     200
+    ],
+    "mariaDice": "Madre mía. Voy sacando.",
+    "manoloDice": "Lo que pese, déjamelo.",
+    "manoloHabla": [
+     "Eso pesa. Deja.",
+     "No mires mucho."
+    ],
+    "albertoHabla": [
+     "Eso no lo he roto yo.",
+     "Cierra."
+    ],
+    "titulo": "SÁCALO A LA CAJA DE ESCOMBROS",
+    "caja": {
+     "label": "Escombros",
+     "at": [
+      712,
+      290
+     ]
+    },
+    "piezas": [
+     {
+      "id": "escombro",
+      "x": 640,
+      "y": 150
+     },
+     {
+      "id": "tabla_rota",
+      "x": 712,
+      "y": 62
+     },
+     {
+      "id": "escombro",
+      "x": 762,
+      "y": 150
+     },
+     {
+      "id": "escombro",
+      "x": 806,
+      "y": 128
+     },
+     {
+      "id": "tabla_rota",
+      "x": 690,
+      "y": 150
+     }
+    ]
+   },
+   "end": {
+    "lines": [
+     {
+      "p": "Pain",
+      "t": "Se oye el candado."
+     },
+     {
+      "who": "manolo",
+      "t": "Ya ha cerrado."
+     },
+     {
+      "p": "Sad",
+      "t": "Mejor."
+     }
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "title": "La visita de la Rafi",
+   "when": "Marzo, año 3",
+   "car": "pajero",
+   "luz": "sol",
+   "musica": "rafi",
+   "encargo": "Hoy baja mi madre. Haz lo que te diga. Yo no estoy.",
+   "visitas": [
+    {
+     "id": "0115",
+     "who": "rafi",
+     "nombre": "La Rafi",
+     "x": 668,
+     "y": 494,
+     "row": 6,
+     "entra": true,
+     "dice": "AAAaaiiiIIi NiiIña en tu casa tu madreE tambíEN irA en BrAAAAga nOO?",
+     "respuesta": {
+      "p": "Pain",
+      "t": "Eso no se pregunta, Rafi."
+     },
+     "habla": [
+      "Niña, tú hazme caso a mí.",
+      "Niña, aquí abajo hay mucha envidia. Se nota en el aire.",
+      "Niña, mi Ismaelito no sabe que he bajado. Bueno, lo sabe."
+     ]
+    }
+   ],
+   "rafiAlSacar": {
+    "maceta": "Niña, la planta del dinero. Se riega los viernes y no se le dice a nadie.",
+    "piedra": "Niña, contra el mal de ojo. Una en el centro de la mesa. Las otras, donde veas.",
+    "camisa": "Niña, esa ni la arrugues, que la he planchao tres veces.",
+    "tarot": "Niña, sácame una. Si sale la Torre, no ha salido.",
+    "velas": "Niña, esas no se encienden hasta el sábado.",
+    "planta": "Niña, esas tienen poderes. Donde les dé el aire.",
+    "atrapasuenos": "Niña, ese encima del sofá, que aquí se sueña fatal.",
+    "peluche_camara": "Niña, ese te lo regala él. Ponlo mirando al sofá."
+   },
+   "boxes": [
+    {
+     "note": {
+      "de": "rafi",
+      "t": "Niña,\nLas velas son de las buenas. La piedra la pones en el centro de la mesa. Las plantas, donde les dé el aire. Y tú ven guapa, que él va a ir con la camisa.\nLa Rafi"
+     },
+     "items": [
+      {
+       "id": "maceta"
+      },
+      {
+       "id": "piedra",
+       "n": 3
+      },
+      {
+       "id": "velas"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "camisa"
+      },
+      {
+       "id": "tarot"
+      },
+      {
+       "id": "lampara_sal"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "atrapasuenos"
+      },
+      {
+       "id": "planta",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "peluche_camara"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 628,
+    "y": 410,
+    "row": 6
+   },
+   "manoloHabla": [
+    "Yo no miro.",
+    "A esa señora no se le lleva la contraria."
+   ],
+   "end": {
+    "lines": [
+     {
+      "who": "rafi",
+      "t": "Niña, me subo, que estas escaleras me dan asco."
+     },
+     {
+      "p": "Pain",
+      "t": "Yo aquí no he visto nada."
+     }
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "title": "El gran día",
+   "when": "Primavera, año 3",
+   "car": "accord",
+   "luz": "sol",
+   "musica": "tarde",
+   "encargo": "Viene gente. Bueno, viene una persona. Pon la mesa para dos. Lo demás, como tú veas.",
+   "boxes": [
+    {
+     "note": {
+      "de": "buitre",
+      "t": "María,\nEl sábado a las nueve. Amélie en el proyector. Tú y yo. Si no vienes, lo entiendo, pero ven. Llevo una semana macerando una tortilla de patatas para los dos.\nI."
+     },
+     "items": [
+      {
+       "id": "mesa_dos"
+      },
+      {
+       "id": "silla",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "planta_sansevieria"
+      },
+      {
+       "id": "planta_palmera"
+      },
+      {
+       "id": "cuadro_maria"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "id": "bluray_amelie"
+      },
+      {
+       "id": "rosas_plastico"
+      }
+     ]
+    }
+   ],
+   "manolo": {
+    "x": 200,
+    "y": 530,
+    "row": 3
+   },
+   "end": {
+    "lines": [
+     {
+      "p": "Inspired",
+      "t": "Vale."
+     }
+    ]
+   },
+   "notaManolo": {
+    "t": "María,\nEl sábado hay feria. Si quieres.\nManolo",
+    "paso": [
+     [
+      360,
+      464
+     ]
+    ]
+   },
+   "manoloHabla": [
+    "Todavía no.",
+    "Cuando acabes."
+   ],
+   "juanjoEscondido": [
+    200,
+    290,
+    2
+   ],
+   "obligatorio": [
+    "mesa_dos"
+   ],
+   "rafi": "María,\nLo de la piedra va en serio. En el centro de la mesa.\nLa Rafi"
+  },
+  {
+   "n": 13,
+   "title": "La caja de María",
+   "when": "Verano, año 3",
+   "car": "pajero",
+   "carRampa": "accord",
+   "luz": "atardecer",
+   "musica": "final",
+   "encargo": null,
+   "mariaDice": "Voy a recoger mis cosas. Manolo, nos vamos. Me cansé de esto.",
+   "recoger": [
+    "pincel",
+    "bote_azul",
+    "bluray_amelie",
+    "nota_manolo",
+    "rosas_plastico"
+   ],
+   "sueltos": [
+    {
+     "id": "pincel",
+     "x": 340,
+     "y": 170
+    },
+    {
+     "id": "bote_azul",
+     "x": 680,
+     "y": 380
+    },
+    {
+     "id": "nota_manolo",
+     "x": 620,
+     "y": 480
+    }
+   ],
+   "boxes": [
+    {
+     "id": "maria",
+     "label": "María",
+     "keep": true,
+     "open": true,
+     "items": []
+    }
+   ],
+   "manolo": {
+    "x": 650,
+    "y": 380,
+    "row": 2
+   },
+   "end": {
+    "colera": true
+   },
+   "manoloHabla": [
+    "La caja la llevo yo.",
+    "Cuando quieras."
+   ]
+  }
+ ],
+ "libre": {
+  "n": 14,
+  "title": "Modo libre",
+  "when": "Sin encargo",
+  "car": "accord",
+  "luz": "sol",
+  "musica": "tarde",
+  "boxes": [],
+  "manolo": null,
+  "libre": true,
+  "end": {}
+ }
+}

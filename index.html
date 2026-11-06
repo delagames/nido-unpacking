@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#2B2420">
+<title>Nido Unpacking</title>
+<link rel="icon" href="assets/logo/icono-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+<style>
+#carga { position: fixed; inset: 0; z-index: 30; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 24px; box-sizing: border-box; background: #1E1A22; color: #F4EBD9; font: 20px "Pixelify Sans", sans-serif; text-align: center; }
+#carga img { width: 96px; height: 96px; image-rendering: pixelated; }
+#carga p { margin: 0; max-width: 340px; }
+#carga-barra { width: min(280px, 80vw); height: 16px; border: 2px solid #D98A4B; padding: 2px; box-sizing: content-box; }
+#carga-barra div { width: 0; height: 100%; background: #D98A4B; }
+#carga button { min-width: 160px; min-height: 48px; font: 700 20px "Pixelify Sans", sans-serif; color: #2B2420; background: #D98A4B; border: 0; }
+#carga button[hidden] { display: none; }
+</style>
+</head>
+<body>
+<canvas id="juego" width="540" height="960"></canvas>
+<div id="carga">
+  <img src="assets/logo/icono-192.png" alt="">
+  <p id="carga-texto">Cargando el sótano...</p>
+  <div id="carga-barra"><div></div></div>
+  <button id="carga-otra" hidden onclick="location.reload()">Reintentar</button>
+</div>
+<script>
+// Sin red, sin un archivo o sin el propio código: se dice qué pasa y se puede volver a intentar.
+window.falloCarga = function (archivo) {
+  var texto = navigator.onLine === false ? 'No hay conexión y falta parte del juego.' : 'No se ha podido descargar todo el juego.';
+  document.getElementById('carga-texto').textContent = texto + (archivo ? ' Falta: ' + archivo : '');
+  document.getElementById('carga-otra').hidden = false;
+  document.getElementById('carga-barra').hidden = true;
+};
+</script>
+<script type="module" src="js/main.js" onerror="falloCarga('js/main.js')"></script>
+</body>
+</html>

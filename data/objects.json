@@ -1,0 +1,2910 @@
+{
+ "groups": {
+  "dentro": [
+   "sala_suelo",
+   "garaje_suelo",
+   "cuartillo_suelo"
+  ],
+  "fuera": [
+   "plantas_izq",
+   "plantas_dcha",
+   "meadero",
+   "patio"
+  ],
+  "pared": [
+   "sala_pared",
+   "cuartillo_pared",
+   "garaje_pared",
+   "cuartillo_pared_e",
+   "sala_pared_e",
+   "garaje_pared_n",
+   "garaje_pared_n2",
+   "porton"
+  ],
+  "encima": [
+   "top:mesa",
+   "top:estanteria",
+   "top:tele",
+   "top:arcon",
+   "top:sofa",
+   "top:silla"
+  ]
+ },
+ "objects": [
+  {
+   "id": "arcon",
+   "cat": "muebles",
+   "name": "Arcón congelador",
+   "layer": "floor",
+   "w": 64,
+   "d": 37,
+   "h": 54,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "arcon",
+    "superficies": [
+     {
+      "z": 54,
+      "x0": 3,
+      "y0": 3,
+      "x1": 61,
+      "y1": 34
+     }
+    ]
+   },
+   "art": "a big white horizontal chest freezer with a metal handle",
+   "back": true,
+   "rot0": 1,
+   "cara": "Determined",
+   "dice": "Huele a una mezcla de pota y camión porcino de Famadesa.",
+   "v4": true
+  },
+  {
+   "id": "sofa_viejo",
+   "cat": "muebles",
+   "name": "Sofá viejo de escai",
+   "layer": "floor",
+   "w": 83,
+   "d": 37,
+   "h": 37,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "art": "an old worn brown leatherette three-seat sofa",
+   "back": true,
+   "cara": "Pain",
+   "dice": "Tiene manchas. No voy a preguntar de qué son.",
+   "offers": {
+    "tag": "sofa",
+    "superficies": [
+     {
+      "z": 22,
+      "espalda": true,
+      "x0": 14,
+      "y0": 12,
+      "x1": 70,
+      "y1": 35
+     }
+    ]
+   },
+   "v4": true
+  },
+  {
+   "id": "sofa_nuevo",
+   "cat": "muebles",
+   "name": "Sofá nuevo, de los buenos",
+   "layer": "floor",
+   "w": 110,
+   "d": 40,
+   "h": 39,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "sofa",
+    "superficies": [
+     {
+      "z": 23,
+      "espalda": true,
+      "x0": 13,
+      "y0": 16,
+      "x1": 97,
+      "y1": 38
+     }
+    ]
+   },
+   "art": "a large modern slate-blue fabric three-seat sofa with tall back cushions, thick seat cushions and wide arm rests",
+   "back": true,
+   "cara": "Surprised",
+   "dice": "Sofá nuevo. Todavía huele a dinero. Dale dos semanas y tendrá las mismas manchas.",
+   "v4": true
+  },
+  {
+   "id": "tele_tubo",
+   "cat": "muebles",
+   "name": "Tele de tubo",
+   "layer": "floor",
+   "w": 46,
+   "d": 32,
+   "h": 74,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:mesa"
+   ],
+   "offers": {
+    "tag": "tele",
+    "superficies": [
+     {
+      "z": 74,
+      "x0": 7,
+      "y0": 3,
+      "x1": 39,
+      "y1": 29
+     }
+    ]
+   },
+   "art": "an old CRT television on a small wooden TV cabinet",
+   "back": true,
+   "cara": "Normal",
+   "dice": "Pesa más que una novia del Juani. Y solo se ve si le das un golpe.",
+   "enciende": {
+    "cara": [
+     [
+      8.5,
+      30.7,
+      69
+     ],
+     [
+      34,
+      30.7,
+      69
+     ],
+     [
+      34,
+      30.7,
+      44
+     ],
+     [
+      8.5,
+      30.7,
+      44
+     ]
+    ]
+   },
+   "v4": true
+  },
+  {
+   "id": "tele_plana",
+   "cat": "muebles",
+   "name": "Tele plana",
+   "layer": "floor",
+   "w": 60,
+   "d": 18,
+   "h": 50,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:mesa"
+   ],
+   "art": "a modern flat-screen television on a low black stand",
+   "back": true,
+   "cara": "Pain",
+   "dice": "Una segunda tele. Ahora nadie le va a parar con las maratones.",
+   "enciende": {
+    "cara": [
+     [
+      1.5,
+      10.8,
+      48.5
+     ],
+     [
+      58.5,
+      10.8,
+      48.5
+     ],
+     [
+      58.5,
+      10.8,
+      13.5
+     ],
+     [
+      1.5,
+      10.8,
+      13.5
+     ]
+    ]
+   },
+   "v4": true
+  },
+  {
+   "id": "lampara",
+   "cat": "muebles",
+   "name": "Lámpara de pie",
+   "layer": "floor",
+   "w": 18,
+   "d": 18,
+   "h": 73,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "art": "a brass floor lamp with a warm fabric shade",
+   "cara": "Surprised",
+   "dice": "Tiene una bolita de aluminio dentro. No sale. Lo he intentado.",
+   "offers": {
+    "tag": "lampara",
+    "superficies": [
+     {
+      "z": 28,
+      "x0": -20,
+      "y0": -20,
+      "x1": 38,
+      "y1": 38,
+      "centrar": true
+     }
+    ]
+   },
+   "enciende": {
+    "luz": {
+     "color": "#FFC766",
+     "z": 58,
+     "r": 38,
+     "suelo": 112,
+     "brillo": 0.5
+    }
+   },
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "escritorio",
+   "cat": "muebles",
+   "name": "Escritorio con el PC",
+   "layer": "floor",
+   "w": 56,
+   "d": 45,
+   "h": 63,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "mesa",
+    "superficies": [
+     {
+      "z": 36,
+      "x0": 2,
+      "y0": 22,
+      "x1": 54,
+      "y1": 43,
+      "tapa3d": [
+       14,
+       3,
+       36,
+       44,
+       21,
+       63
+      ]
+     }
+    ]
+   },
+   "art": "a wooden desk with an old beige tower computer, CRT monitor and keyboard",
+   "back": true,
+   "cara": "Pain",
+   "dice": "El ordenador no se toca. Lo llevo a cuestas con el ordenador dentro, pero no se toca. Qué tendrá ese historial…",
+   "enciende": {
+    "noTocar": "Menos el ordenador, dice la nota. Ni para encenderlo."
+   },
+   "v4": true
+  },
+  {
+   "id": "estanteria_metal",
+   "cat": "muebles",
+   "name": "Estantería metálica",
+   "layer": "floor",
+   "w": 55,
+   "d": 18,
+   "h": 99,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "estanteria",
+    "superficies": [
+     {
+      "z": 4,
+      "techo": 26,
+      "x0": 4,
+      "y0": 2,
+      "x1": 51,
+      "y1": 17
+     },
+     {
+      "z": 28,
+      "techo": 49,
+      "x0": 4,
+      "y0": 2,
+      "x1": 51,
+      "y1": 17
+     },
+     {
+      "z": 51,
+      "techo": 73,
+      "x0": 4,
+      "y0": 2,
+      "x1": 51,
+      "y1": 17
+     },
+     {
+      "z": 75,
+      "techo": 97,
+      "x0": 4,
+      "y0": 2,
+      "x1": 51,
+      "y1": 17
+     },
+     {
+      "z": 99,
+      "x0": 2,
+      "y0": 1,
+      "x1": 53,
+      "y1": 17
+     }
+    ]
+   },
+   "art": "a grey metal utility shelf with four empty shelves",
+   "back": true,
+   "cara": "Normal",
+   "dice": "Huele a tornillo. Con esto ya parece Navarros Hnos.",
+   "v4": true
+  },
+  {
+   "id": "estanteria_alta",
+   "cat": "muebles",
+   "name": "Estantería de madera",
+   "layer": "floor",
+   "w": 59,
+   "d": 33,
+   "h": 128,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "estanteria",
+    "superficies": [
+     {
+      "z": 8,
+      "techo": 44,
+      "x0": 3,
+      "y0": 4,
+      "x1": 56,
+      "y1": 32
+     },
+     {
+      "z": 47,
+      "techo": 83,
+      "x0": 3,
+      "y0": 4,
+      "x1": 56,
+      "y1": 32
+     },
+     {
+      "z": 86,
+      "techo": 125,
+      "x0": 3,
+      "y0": 4,
+      "x1": 56,
+      "y1": 32
+     },
+     {
+      "z": 128,
+      "x0": 1,
+      "y0": 1,
+      "x1": 58,
+      "y1": 32
+     }
+    ]
+   },
+   "art": "a tall oak bookcase with empty shelves",
+   "back": true,
+   "cara": "Happy",
+   "dice": "Por fin algo de madera en esta casa. Espero que no se ponga mohosa con la humedad.",
+   "v4": true
+  },
+  {
+   "id": "mesa_baja",
+   "cat": "muebles",
+   "name": "Mesa baja",
+   "layer": "floor",
+   "w": 55,
+   "d": 32,
+   "h": 22,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "mesa",
+    "superficies": [
+     {
+      "z": 22,
+      "x0": 1,
+      "y0": 1,
+      "x1": 54,
+      "y1": 31
+     }
+    ]
+   },
+   "art": "a low rectangular wooden coffee table",
+   "cara": "Normal",
+   "dice": "Una mesa. Lo primero normal que entra aquí.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "mesa_grande",
+   "cat": "muebles",
+   "name": "Mesa grande",
+   "layer": "floor",
+   "w": 98,
+   "d": 56,
+   "h": 33,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "mesa",
+    "superficies": [
+     {
+      "z": 33,
+      "x0": 3,
+      "y0": 3,
+      "x1": 95,
+      "y1": 53
+     }
+    ]
+   },
+   "art": "dibujada por código: tools/dibujados.py",
+   "cara": "Pain",
+   "dice": "Dice que es para cuando venga gente. Aún no ha venido nadie.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "mesa_dos",
+   "cat": "muebles",
+   "name": "Mesa para dos",
+   "layer": "floor",
+   "w": 35,
+   "d": 35,
+   "h": 31,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "mesa",
+    "superficies": [
+     {
+      "z": 31,
+      "x0": 3,
+      "y0": 3,
+      "x1": 32,
+      "y1": 32
+     }
+    ]
+   },
+   "art": "a small square dining table for two with a white tablecloth",
+   "cara": "Sad",
+   "dice": "Una mesa para dos. Que sea lo que Dios quiera.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "silla",
+   "cat": "muebles",
+   "name": "Silla",
+   "layer": "floor",
+   "w": 18,
+   "d": 18,
+   "h": 44,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "art": "a simple wooden dining chair",
+   "back": true,
+   "cara": "Normal",
+   "dice": "Dos sillas. Las cuento dos veces, por si acaso.",
+   "offers": {
+    "tag": "silla",
+    "superficies": [
+     {
+      "z": 26,
+      "x0": 2,
+      "y0": 4,
+      "x1": 16,
+      "y1": 18
+     }
+    ]
+   },
+   "v4": true
+  },
+  {
+   "id": "proyector",
+   "cat": "muebles",
+   "name": "Proyector",
+   "layer": "top",
+   "w": 14,
+   "d": 18,
+   "h": 9,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small white video projector",
+   "back": true,
+   "cara": "Normal",
+   "dice": "Un proyector. Para ver Amélie en grande, por si en la tele no se notaba.",
+   "enciende": {
+    "luz": {
+     "color": "#DDEBFF",
+     "z": 6,
+     "r": 16,
+     "suelo": 48,
+     "fuerza": 0.24,
+     "brillo": 0.6
+    }
+   },
+   "v4": true
+  },
+  {
+   "id": "pantalla",
+   "cat": "muebles",
+   "name": "Pantalla blanca",
+   "layer": "floor",
+   "w": 83,
+   "d": 9,
+   "h": 104,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "art": "a white roll-up projector screen on a tripod stand",
+   "back": true,
+   "cara": "Pain",
+   "dice": "Una sábana con patas, pero cara.",
+   "enciende": {
+    "cara": [
+     [
+      3,
+      4.8,
+      100
+     ],
+     [
+      80,
+      4.8,
+      100
+     ],
+     [
+      80,
+      4.8,
+      28
+     ],
+     [
+      3,
+      4.8,
+      28
+     ]
+    ],
+    "caraB": [
+     [
+      80,
+      4.2,
+      100
+     ],
+     [
+      3,
+      4.2,
+      100
+     ],
+     [
+      3,
+      4.2,
+      28
+     ],
+     [
+      80,
+      4.2,
+      28
+     ]
+    ]
+   },
+   "v4": true
+  },
+  {
+   "id": "cachimba_peq",
+   "cat": "trastos",
+   "name": "Cachimba pequeña",
+   "layer": "floor",
+   "w": 16,
+   "d": 16,
+   "h": 37,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small hookah with a single hose and a dark glass base",
+   "cara": "Normal",
+   "dice": "Huele a fresa y a sultanato de domingo por la tarde.",
+   "enciende": {
+    "humo": {
+     "z": 34,
+     "r": 0.7
+    },
+    "luz": {
+     "color": "#FF7A3A",
+     "z": 24,
+     "suelo": 0,
+     "r": 0
+    }
+   },
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "cachimba_grande",
+   "cat": "trastos",
+   "name": "Cachimba enorme",
+   "layer": "floor",
+   "w": 32,
+   "d": 32,
+   "h": 74,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a huge ornate brass hookah with four hoses, tall as a person",
+   "cara": "Surprised",
+   "dice": "Es casi tan alta como yo. La segunda más cara de la web, dice.",
+   "enciende": {
+    "humo": {
+     "z": 70,
+     "r": 1
+    },
+    "luz": {
+     "color": "#FF7A3A",
+     "z": 50,
+     "suelo": 0,
+     "r": 0
+    }
+   },
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "bolita",
+   "cat": "trastos",
+   "name": "Bolita de aluminio",
+   "layer": "any",
+   "w": 7,
+   "d": 7,
+   "h": 7,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a tiny crumpled ball of aluminium foil",
+   "cara": "Pain",
+   "dice": "Bolitas de papel de aluminio. Una caja. Son de sus amigos, se ve que los aprecia.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "bluray_amelie",
+   "cat": "frikadas",
+   "name": "Amélie",
+   "layer": "top",
+   "w": 9,
+   "d": 14,
+   "h": 3,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a blue plastic Blu-ray case with a plain green cover lying flat, no text",
+   "cara": "Surprised",
+   "dice": "Amélie. Otra vez. Esto ya no es un regalo, es un aviso.",
+   "diceCap": {
+    "2": "Amélie.",
+    "8": "..."
+   },
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "pack_lotr",
+   "cat": "frikadas",
+   "name": "Trilogía de El Señor de los Anillos",
+   "layer": "top",
+   "w": 14,
+   "d": 14,
+   "h": 16,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a row of Blu-ray cases seen by the spine, composed by code, no logos",
+   "cara": "Normal",
+   "dice": "La trilogía extendida. Si me siento a verla, salgo en primavera.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "pack_sw",
+   "cat": "frikadas",
+   "name": "Las nueve de Star Wars",
+   "layer": "top",
+   "w": 40,
+   "d": 14,
+   "h": 16,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a row of Blu-ray cases seen by the spine, composed by code, no logos",
+   "cara": "Pain",
+   "dice": "Las nueve. He contado dos veces. Las nueve.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "pack_hp",
+   "cat": "frikadas",
+   "name": "Las ocho de Harry Potter",
+   "layer": "top",
+   "w": 36,
+   "d": 14,
+   "h": 16,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a row of Blu-ray cases seen by the spine, composed by code, no logos",
+   "cara": "Normal",
+   "dice": "Las ocho de Harry Potter. Va a estar imitando a Voldemort durante días.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "poster_lotr",
+   "cat": "pared",
+   "name": "Póster de El Señor de los Anillos",
+   "layer": "wall",
+   "w": 32,
+   "d": 0,
+   "h": 46,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "art": "a fantasy poster of misty mountains and a golden ring, no text",
+   "cara": "Normal",
+   "dice": "Lo pongo recto. Él dirá que está torcido.",
+   "v4": true
+  },
+  {
+   "id": "poster_sw",
+   "cat": "pared",
+   "name": "Póster de Star Wars",
+   "layer": "wall",
+   "w": 32,
+   "d": 0,
+   "h": 46,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "art": "a space adventure poster with a starfield and a planet, no text",
+   "cara": "Normal",
+   "dice": "Un póster de naves. Le hace compañía a las manchas.",
+   "v4": true
+  },
+  {
+   "id": "poster_hp",
+   "cat": "pared",
+   "name": "Póster de Harry Potter",
+   "layer": "wall",
+   "w": 32,
+   "d": 0,
+   "h": 46,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "art": "a magic school poster with a castle at night and an owl, no text",
+   "cara": "Normal",
+   "dice": "Un castillo de magos. Esto, en un sótano de Campanillas, tiene su aquel.",
+   "v4": true
+  },
+  {
+   "id": "figura_dragonite",
+   "cat": "frikadas",
+   "name": "Figura de Dragonite",
+   "layer": "top",
+   "w": 14,
+   "d": 14,
+   "h": 23,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "figure": "0149",
+   "back": true,
+   "cara": "Happy",
+   "dice": "Un dragón con cara de buena persona. Aquí es el más normal.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "figura_salamence",
+   "cat": "frikadas",
+   "name": "Figura de Salamence",
+   "layer": "top",
+   "w": 14,
+   "d": 14,
+   "h": 23,
+   "turn": "flip",
+   "cara": "Normal",
+   "dice": "Un lagarto antiquísimo que habla de su falta de amor propio.",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "figure": "0373",
+   "back": true,
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "figura_garchomp",
+   "cat": "frikadas",
+   "name": "Figura de Garchomp",
+   "layer": "top",
+   "w": 14,
+   "d": 14,
+   "h": 23,
+   "turn": "flip",
+   "cara": "Normal",
+   "dice": "Este ni parece dragón, solo un minero.",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "figure": "0445",
+   "back": true,
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "figura_haxorus",
+   "cat": "frikadas",
+   "name": "Figura de Haxorus",
+   "layer": "top",
+   "w": 14,
+   "d": 14,
+   "h": 23,
+   "turn": "flip",
+   "cara": "Normal",
+   "dice": "¿Cuándo le toca madurar?",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "figure": "0612",
+   "back": true,
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "figura_rayquaza",
+   "cat": "frikadas",
+   "name": "Figura de Rayquaza",
+   "layer": "floor",
+   "w": 23,
+   "d": 23,
+   "h": 41,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:estanteria",
+    "encima"
+   ],
+   "figure": "0384",
+   "back": true,
+   "cara": "Surprised",
+   "dice": "Más grande que la tele. Le ha puesto peana y todo.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "rosas_azules",
+   "cat": "plantas",
+   "name": "Rosas azules",
+   "layer": "any",
+   "w": 18,
+   "d": 18,
+   "h": 32,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a glass vase with a bouquet of vivid blue roses",
+   "cara": "Pain",
+   "dice": "Qué casualidad, mis preferidas.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "rosas_secas",
+   "cat": "plantas",
+   "name": "Rosas secas",
+   "layer": "any",
+   "w": 18,
+   "d": 18,
+   "h": 28,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a glass vase with dried, faded dark blue roses",
+   "cara": "Sad",
+   "dice": "Las ha guardado. Todo este tiempo. Prefiero no pensarlo.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "rosas_plastico",
+   "cat": "plantas",
+   "name": "Rosas de plástico",
+   "layer": "any",
+   "w": 18,
+   "d": 18,
+   "h": 32,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a plastic vase with shiny artificial bright blue plastic roses",
+   "cara": "Pain",
+   "dice": "De plástico, para que no se sequen. Tiene su lógica. Ese es el problema.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "risk",
+   "cat": "frikadas",
+   "name": "Caja de Risk",
+   "layer": "any",
+   "w": 37,
+   "d": 25,
+   "h": 9,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a big flat cardboard board-game box with a plain world map on the lid, no text",
+   "cara": "Normal",
+   "dice": "Faltan tres fichas y hay como leche condensada en Kamchatka. Qué asco.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "mancuerna",
+   "cat": "trastos",
+   "name": "Mancuerna oxidada",
+   "layer": "floor",
+   "w": 18,
+   "d": 9,
+   "h": 7,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:mesa",
+    "top:arcon",
+    "encima"
+   ],
+   "art": "a rusty iron dumbbell",
+   "cara": "Pain",
+   "dice": "El legado de Joaquín.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "tarro_chapas",
+   "cat": "frikadas",
+   "name": "Tarro de chapas",
+   "layer": "top",
+   "w": 12,
+   "d": 12,
+   "h": 16,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a glass jar full of beer bottle caps",
+   "cara": "Happy",
+   "dice": "Chapas de la Champions Beer.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "chapas",
+   "cat": "frikadas",
+   "name": "Bolsa de chapas",
+   "layer": "top",
+   "w": 12,
+   "d": 12,
+   "h": 7,
+   "turn": "none",
+   "cara": "Normal",
+   "dice": "Pa la próxima Champions Beer.",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small cloth bag of beer bottle caps",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "camisetas",
+   "cat": "trastos",
+   "name": "Camisetas dobladas",
+   "layer": "top",
+   "w": 21,
+   "d": 18,
+   "h": 7,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a neat stack of folded dark t-shirts",
+   "cara": "Normal",
+   "dice": "Dobladas por alguien que no es él. Eso es la Rafi. Huelen a incienso.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "anillo",
+   "cat": "frikadas",
+   "name": "Anillo de Aragorn",
+   "layer": "top",
+   "w": 12,
+   "d": 12,
+   "h": 6,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small open jewellery box with a silver ring inside",
+   "cara": "Surprised",
+   "dice": "El anillo de Aragorn. En una cajita. No, no, no. Al estante y no se habla más.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "tabaco",
+   "cat": "trastos",
+   "name": "Tabaco de cachimba",
+   "layer": "top",
+   "w": 12,
+   "d": 12,
+   "h": 7,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small round tin of hookah tobacco, no text",
+   "cara": "Surprised",
+   "dice": "Anda de uva gourmet.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "carbones",
+   "cat": "trastos",
+   "name": "Carbones",
+   "layer": "top",
+   "w": 16,
+   "d": 14,
+   "h": 7,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small black box of hookah charcoal cubes, no text",
+   "cara": "Pain",
+   "dice": "De color negro como su alma.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "vaper",
+   "cat": "trastos",
+   "name": "Vaper de frambuesa",
+   "layer": "top",
+   "w": 12,
+   "d": 6,
+   "h": 3,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a slim raspberry-pink vape pen lying down",
+   "cara": "Pain",
+   "dice": "Huele a frambuesa. Todo el sótano huele a frambuesa con roquefort.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "foto_champions",
+   "cat": "pared",
+   "name": "Foto de la Champions Beer",
+   "layer": "wall",
+   "w": 25,
+   "d": 0,
+   "h": 21,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "art": "a framed photo of five blurry silhouettes raising beer bottles, no faces, no text",
+   "cara": "Happy",
+   "dice": "Los cinco con botellines. Esta sí la pongo bien. Qué guapo sale Manolo borracho.",
+   "v4": true
+  },
+  {
+   "id": "anacardos",
+   "cat": "comida",
+   "name": "Anacardos",
+   "layer": "top",
+   "w": 12,
+   "d": 9,
+   "h": 14,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:mesa",
+    "top:arcon",
+    "top:sofa",
+    "encima"
+   ],
+   "art": "a transparent bag of cashew nuts, no text",
+   "cara": "Happy",
+   "dice": "Anacardos. De aquí saca el poder para pegar gritos a las 3 de la mañana.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "pepsi",
+   "cat": "comida",
+   "name": "Pepsi",
+   "layer": "top",
+   "w": 7,
+   "d": 7,
+   "h": 30,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:mesa",
+    "top:arcon",
+    "top:sofa",
+    "encima"
+   ],
+   "art": "a plastic bottle of dark cola with a blue cap, plain label, no text",
+   "cara": "Normal",
+   "dice": "La wela la wela. La wela trae Pepsi como quien trae agua bendita.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "pepsi_media",
+   "cat": "comida",
+   "name": "Pepsi medio vacía",
+   "layer": "top",
+   "w": 7,
+   "d": 7,
+   "h": 30,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:mesa",
+    "top:arcon",
+    "top:sofa",
+    "encima"
+   ],
+   "art": "a half-empty plastic bottle of cola, plain label, no text",
+   "cara": "Pain",
+   "dice": "Medio vacía y sin tapón. Esto también es del Alberto.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "puleva",
+   "cat": "comida",
+   "name": "Batido Puleva",
+   "layer": "top",
+   "w": 7,
+   "d": 7,
+   "h": 18,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "top:mesa",
+    "top:arcon",
+    "top:sofa",
+    "encima"
+   ],
+   "art": "a small glass bottle of chocolate milkshake with a blue and brown cap and a blue label; drawn from a real photo by code",
+   "cara": "Happy",
+   "dice": "Pulevas de la wela. Para un regimiento de la I Guerra Mundial. Lo digo por la fecha de caducidad.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "cojin",
+   "cat": "trastos",
+   "name": "Cojín",
+   "layer": "any",
+   "w": 16,
+   "d": 16,
+   "h": 7,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a soft square mustard-yellow cushion",
+   "cara": "Normal",
+   "dice": "Un cojín. Tapa una mancha. Para eso lo pongo.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "raton_gamer",
+   "cat": "frikadas",
+   "name": "Ratón de gamer del Alberto",
+   "layer": "top",
+   "w": 9,
+   "d": 13,
+   "h": 4,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a black gaming mouse with green lights",
+   "cara": "Normal",
+   "dice": "Esto no es suyo. Se ha colado del Alberto.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "cacharra",
+   "cat": "trastos",
+   "name": "Garrafa de 8 litros",
+   "layer": "floor",
+   "w": 23,
+   "d": 18,
+   "h": 44,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a large empty 8 litre translucent plastic water jug with a blue cap",
+   "cara": "Pain",
+   "dice": "Otra cacharra de ocho litros. Nadie sabe para qué. Nadie se atreve a preguntar.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "camisa",
+   "cat": "trastos",
+   "name": "Camisa planchada",
+   "layer": "any",
+   "w": 14,
+   "d": 14,
+   "h": 4,
+   "turn": "none",
+   "fits": [
+    "pared",
+    "top:silla",
+    "top:mesa",
+    "top:sofa",
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "an ironed white shirt with a dark tie, in a clear plastic garment bag; folded when laid down, on a hanger when on a wall",
+   "cara": "Pain",
+   "dice": "Planchada, en su funda, para el sábado. Alguien lo está ilusionando.",
+   "pared": {
+    "w": 27,
+    "h": 54
+   },
+   "v4": true
+  },
+  {
+   "id": "cuaderno_negro",
+   "cat": "frikadas",
+   "name": "Cuaderno negro («Mi alma»)",
+   "layer": "top",
+   "w": 10,
+   "d": 14,
+   "h": 3,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a black notebook closed with an elastic band",
+   "cara": "Surprised",
+   "dice": "«Mi alma». Ya.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "sujetador",
+   "cat": "trastos",
+   "name": "Sujetador verde",
+   "layer": "any",
+   "w": 28,
+   "d": 18,
+   "h": 4,
+   "turn": "none",
+   "fits": [
+    "caja:origen",
+    "detras_arcon",
+    "pared",
+    "top:lampara",
+    "top:sofa",
+    "top:mesa"
+   ],
+   "art": "a plain green bra",
+   "strict": true,
+   "cara": "Angry",
+   "dice": "A qué pobre muchacha le habrá robado esto.",
+   "pared": {
+    "w": 34,
+    "h": 32
+   },
+   "lampara": true,
+   "v4": true
+  },
+  {
+   "id": "petaca",
+   "cat": "comida",
+   "name": "Petaca de Jack Daniels",
+   "layer": "top",
+   "w": 8,
+   "d": 12,
+   "h": 3,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small silver hip flask lying down, no text",
+   "cara": "Surprised",
+   "dice": "Sospecho que también la usa para beber cocido.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "foto_serresiete",
+   "cat": "pared",
+   "name": "Foto de Serresiete",
+   "layer": "wall",
+   "w": 18,
+   "d": 0,
+   "h": 23,
+   "flat": true,
+   "turn": "none",
+   "fits": [
+    "pared"
+   ],
+   "cara": "Surprised",
+   "dice": "Recortada de una revista. Con tijeras de punta redonda, por el borde. Detrás pone algo: “Pelado perfecto para atraer mujeres”",
+   "lee": {
+    "titulo": "Recorte de revista",
+    "paginas": [
+     "@img:fotoSerresiete",
+     "Blaschi,\nquiero esto. La raya con la uña. Como el CR7.\nI."
+    ]
+   },
+   "v4": true
+  },
+  {
+   "id": "manuscrito",
+   "cat": "frikadas",
+   "name": "Epopeya del Rey Isildur",
+   "layer": "top",
+   "w": 15,
+   "d": 19,
+   "h": 3,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small stack of handwritten paper sheets with burnt edges",
+   "cara": "Surprised",
+   "dice": "Doce folios con los bordes quemados. No voy a leer esto.",
+   "lee": "manuscrito",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "pijama",
+   "cat": "trastos",
+   "name": "Pijama de franela",
+   "layer": "top",
+   "w": 21,
+   "d": 16,
+   "h": 7,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "folded plaid flannel pyjamas",
+   "cara": "Pain",
+   "dice": "Franela acartonada. No quiero saber por qué está en esta caja.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "collar",
+   "cat": "frikadas",
+   "name": "Collar de Arwen",
+   "layer": "top",
+   "w": 12,
+   "d": 12,
+   "h": 5,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "an open jewellery box with an elegant silver pendant necklace",
+   "cara": "Surprised",
+   "dice": "El collar de Arwen. Esta vez ni lo saco de su caja.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "pizarrita",
+   "cat": "pared",
+   "name": "Pizarrita",
+   "layer": "wall",
+   "w": 23,
+   "d": 0,
+   "h": 18,
+   "flat": true,
+   "turn": "none",
+   "fits": [
+    "pared"
+   ],
+   "art": "a small blackboard with a wooden frame and chalk scribbles, no readable text",
+   "cara": "Normal",
+   "dice": "Pone objetivos y sale mi nombre. También el de Mª Estrella tachado.",
+   "lee": {
+    "titulo": "Lista de la compra",
+    "paginas": [
+     "7 pulevas (que no caduquen). Carbones. Vaper. Rosas. Rosas no. Rosas.",
+     "Objetivos: Mª Estrella. Mª Estrella no. María."
+    ]
+   },
+   "v4": true
+  },
+  {
+   "id": "velas",
+   "cat": "trastos",
+   "name": "Velas",
+   "layer": "top",
+   "w": 14,
+   "d": 14,
+   "h": 14,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "three unlit cream candles of different heights on a small plate",
+   "cara": "Normal",
+   "dice": "De las buenas, dice la Rafi. Huelen a iglesia. Mejor dicho, a inquisición.",
+   "enciende": {
+    "luz": {
+     "color": "#FFB45A",
+     "z": 14,
+     "r": 18,
+     "suelo": 48,
+     "brillo": 0.55
+    },
+    "llamas": [[5, 5, 15.7], [9.4, 6, 11.7], [6.6, 9.6, 8.7]],
+    "parpadea": true
+   },
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "planta",
+   "cat": "plantas",
+   "name": "Planta con poderes",
+   "layer": "any",
+   "w": 18,
+   "d": 18,
+   "h": 30,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a leafy green plant in a terracotta pot",
+   "cara": "Normal",
+   "dice": "Con poderes. Yo le veo poderes para morirse en una semana.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "piedra",
+   "cat": "frikadas",
+   "name": "Piedra mística",
+   "layer": "top",
+   "w": 10,
+   "d": 10,
+   "h": 8,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a polished purple mystic crystal stone",
+   "cara": "Pain",
+   "dice": "Una piedra. Mística. Una piedra.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "tarot",
+   "cat": "frikadas",
+   "name": "Cartas de tarot",
+   "layer": "top",
+   "w": 9,
+   "d": 13,
+   "h": 3,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a small deck of ornate tarot cards, no text",
+   "cara": "Surprised",
+   "dice": "Sale la Torre. La vuelvo a meter en el mazo y yo no he visto nada.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "pincel",
+   "cat": "trastos",
+   "name": "Pincel",
+   "layer": "top",
+   "w": 16,
+   "d": 3,
+   "h": 3,
+   "turn": "none",
+   "fits": [
+    "caja:maria"
+   ],
+   "art": "a wooden paint brush with blue paint on the bristles",
+   "strict": true,
+   "cara": "Happy",
+   "dice": "Mi pincel. Te estaba buscando.",
+   "v4": true
+  },
+  {
+   "id": "bote_azul",
+   "cat": "trastos",
+   "name": "Bote de pintura azul",
+   "layer": "top",
+   "w": 12,
+   "d": 12,
+   "h": 12,
+   "turn": "none",
+   "fits": [
+    "caja:maria"
+   ],
+   "art": "a small paint tin with blue paint dripping, no text",
+   "strict": true,
+   "cara": "Happy",
+   "dice": "Azul. Este sí lo elegí yo.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "nota_manolo",
+   "cat": "trastos",
+   "name": "Nota de Manolo",
+   "layer": "top",
+   "w": 9,
+   "d": 12,
+   "h": 1,
+   "turn": "none",
+   "fits": [
+    "caja:maria"
+   ],
+   "art": "a folded piece of notebook paper",
+   "strict": true,
+   "cara": "Inspired",
+   "dice": "Esta me la llevo yo.",
+   "v4": true
+  },
+  {
+   "id": "maceta",
+   "cat": "plantas",
+   "name": "Maceta",
+   "layer": "floor",
+   "w": 18,
+   "d": 18,
+   "h": 25,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a terracotta pot with a money plant, round green leaves",
+   "cara": "Normal",
+   "dice": "La Rafi dice que hay que regar la planta del dinero.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "corona",
+   "cat": "pared",
+   "name": "Corona de Navidad",
+   "layer": "wall",
+   "w": 28,
+   "d": 0,
+   "h": 28,
+   "flat": true,
+   "turn": "none",
+   "fits": [
+    "pared"
+   ],
+   "art": "a Christmas wreath with a red ribbon, front view",
+   "cara": "Normal",
+   "dice": "Navidad en un portón. Le da aire de Hogwarts. Ahora se puede abrir con alohomora.",
+   "v4": true
+  },
+  {
+   "id": "cacharra_5l",
+   "cat": "trastos",
+   "name": "Garrafa de 5 litros",
+   "layer": "floor",
+   "w": 15,
+   "d": 15,
+   "h": 48,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a 5 litre translucent plastic water bottle with a blue cap",
+   "cara": "Normal",
+   "dice": "La de cinco. La pequeña. Aquí eso es decir algo.",
+   "v4": true
+  },
+  {
+   "id": "lampara_sal",
+   "cat": "trastos",
+   "name": "Lámpara de sal",
+   "layer": "any",
+   "w": 12,
+   "d": 12,
+   "h": 27,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a Himalayan salt lamp glowing warm orange on a small round wooden base",
+   "cara": "Normal",
+   "dice": "Sal del Himalaya. Dice la Rafi que limpia el aire. Aquí abajo tiene trabajo.",
+   "enciende": {
+    "luz": {
+     "color": "#FF9A4A",
+     "z": 15,
+     "r": 24,
+     "suelo": 64,
+     "brillo": 0.55
+    }
+   },
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "lampara_lava",
+   "cat": "trastos",
+   "name": "Lámpara de lava",
+   "layer": "any",
+   "w": 9,
+   "d": 9,
+   "h": 48,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a retro lava lamp with red wax blobs in purple liquid and a silver base",
+   "cara": "Normal",
+   "dice": "Sube, baja y vuelve a subir. Llevo un rato mirándola.",
+   "enciende": {
+    "luz": {
+     "color": "#FF4A6A",
+     "z": 28,
+     "r": 22,
+     "suelo": 56,
+     "brillo": 0.5
+    }
+   },
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "silla_escritorio",
+   "cat": "muebles",
+   "name": "Silla de escritorio",
+   "layer": "floor",
+   "w": 20,
+   "d": 20,
+   "h": 55,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "offers": {
+    "tag": "silla",
+    "superficies": [
+     {
+      "z": 21,
+      "x0": 3,
+      "y0": 3,
+      "x1": 17,
+      "y1": 17
+     }
+    ]
+   },
+   "art": "a black ergonomic office swivel chair with headrest, armrests and wheels",
+   "cara": "Normal",
+   "dice": "Tiene ruedas. En este suelo no llega a ninguna parte.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "pc_nuevo",
+   "cat": "frikadas",
+   "name": "PC nuevo",
+   "layer": "any",
+   "w": 46,
+   "d": 30,
+   "h": 31,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "art": "a modern black desktop computer tower with blue lights, slim monitor and keyboard",
+   "cara": "Pain",
+   "dice": "Otro ordenador. Este tampoco se toca, supongo.",
+   "back": true,
+   "enciende": {
+    "cara": [
+     [
+      2.5,
+      11.2,
+      26.5
+     ],
+     [
+      29.5,
+      11.2,
+      26.5
+     ],
+     [
+      29.5,
+      11.2,
+      7.5
+     ],
+     [
+      2.5,
+      11.2,
+      7.5
+     ]
+    ],
+    "fondo": "#101C34"
+   },
+   "v4": true
+  },
+  {
+   "id": "mesa_escritorio",
+   "cat": "muebles",
+   "name": "Mesa de escritorio",
+   "layer": "floor",
+   "w": 84,
+   "d": 40,
+   "h": 34,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "back": true,
+   "offers": {
+    "tag": "mesa",
+    "superficies": [
+     {
+      "z": 34,
+      "x0": 2,
+      "y0": 2,
+      "x1": 82,
+      "y1": 38
+     }
+    ]
+   },
+   "art": "a modern wooden office desk with metal legs and a drawer unit; drawn by code",
+   "cara": "Normal",
+   "dice": "Mesa nueva para el ordenador nuevo. Dentro de un mes, tampoco se verá.",
+   "v4": true
+  },
+  {
+   "id": "atrapasuenos",
+   "cat": "pared",
+   "name": "Atrapasueños",
+   "layer": "wall",
+   "w": 25,
+   "d": 0,
+   "h": 50,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "art": "a dream catcher with beads and brown feathers; scaled by code from a photo",
+   "cara": "Normal",
+   "dice": "Para atrapar sueños. Aquí abajo va a pasar hambre.",
+   "v4": true
+  },
+  {
+   "id": "mueble_tele",
+   "cat": "muebles",
+   "name": "Mueble de la tele",
+   "layer": "floor",
+   "w": 100,
+   "d": 32,
+   "h": 30,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "back": true,
+   "cara": "Normal",
+   "offers": {
+    "tag": "mesa",
+    "macizo": true,
+    "superficies": [
+     {
+      "z": 3,
+      "techo": 27,
+      "x0": 47,
+      "y0": 4,
+      "x1": 70,
+      "y1": 31
+     },
+     {
+      "z": 3,
+      "techo": 27,
+      "x0": 73,
+      "y0": 4,
+      "x1": 97,
+      "y1": 31
+     },
+     {
+      "z": 30,
+      "x0": 2,
+      "y0": 2,
+      "x1": 98,
+      "y1": 30
+     }
+    ]
+   },
+   "art": "a low long TV stand with two drawers and two open bays; drawn by code",
+   "dice": "Dos cajones y dos huecos. Lo primero que entra aquí no sale nunca.",
+   "v4": true
+  },
+  {
+   "id": "cabina",
+   "cat": "frikadas",
+   "name": "Cabina azul",
+   "layer": "floor",
+   "w": 13,
+   "d": 13,
+   "h": 29,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Surprised",
+   "art": "a small blue toy police box; from a photo, no back sprite",
+   "dice": "Por dentro será más grande. Ojalá. Este sótano lo agradecería.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "estrella_muerte",
+   "cat": "frikadas",
+   "name": "Estrella de la Muerte",
+   "layer": "any",
+   "w": 26,
+   "d": 26,
+   "h": 32,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a model of a grey space station sphere on a stand; from a photo",
+   "dice": "Tiene un punto débil. Lo pongo donde no se vea.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "sable_laser",
+   "cat": "frikadas",
+   "name": "Sable láser",
+   "layer": "top",
+   "w": 10,
+   "d": 10,
+   "h": 26,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Surprised",
+   "art": "a metal lightsaber hilt on a small stand; red blade when on",
+   "enciende": {
+    "capa": true,
+    "luz": {
+     "color": "#FF3A3A",
+     "z": 40,
+     "r": 26,
+     "suelo": 64,
+     "brillo": 0.42
+    }
+   },
+   "dice": "Rojo. Claro. No iba a ser de los buenos.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "camiseta_mago",
+   "cat": "trastos",
+   "name": "Camiseta de Mägo de Oz",
+   "layer": "any",
+   "w": 30,
+   "d": 26,
+   "h": 5,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima",
+    "pared"
+   ],
+   "cara": "Normal",
+   "pared": {
+    "w": 44,
+    "h": 39
+   },
+   "art": "a folded black band t-shirt; hung flat on a wall",
+   "dice": "De la gira del 2003. Huele a la gira del 2003.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "plato_sucio",
+   "cat": "comida",
+   "name": "Plato sucio",
+   "layer": "top",
+   "w": 20,
+   "d": 20,
+   "h": 3,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a dirty white plate with sauce, seen from above",
+   "dice": "No sé de qué fue. Ya no se sabrá.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "platos_sucios",
+   "cat": "comida",
+   "name": "Pila de platos sucios",
+   "layer": "any",
+   "w": 18,
+   "d": 18,
+   "h": 20,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a stack of dirty white plates and bowls",
+   "dice": "Sin lavar desde hace tiempo. Se nota por capas, como en la geología.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "taza_negra",
+   "cat": "comida",
+   "name": "Taza negra",
+   "layer": "top",
+   "w": 10,
+   "d": 10,
+   "h": 8,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "a glossy black mug",
+   "dice": "Una taza. La única cosa normal de esta casa.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "planta_sansevieria",
+   "cat": "plantas",
+   "name": "Lengua de suegra",
+   "layer": "any",
+   "w": 16,
+   "d": 16,
+   "h": 59,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "a snake plant in a terracotta pot",
+   "dice": "Aguanta sin luz y sin agua. Le va a ir bien aquí.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "planta_palmera",
+   "cat": "plantas",
+   "name": "Palmera de interior",
+   "layer": "floor",
+   "w": 30,
+   "d": 30,
+   "h": 47,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "cara": "Surprised",
+   "art": "an indoor areca palm in a steel pot",
+   "dice": "Una palmera en un sótano. Vacaciones, lo llaman.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "planta_hojas",
+   "cat": "plantas",
+   "name": "Planta de hojas anchas",
+   "layer": "any",
+   "w": 20,
+   "d": 20,
+   "h": 25,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "a glossy leafy plant in a black pot",
+   "dice": "Maceta negra y hojas brillantes. Es lo más elegante que ha pasado por aquí.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "planta_monstera",
+   "cat": "plantas",
+   "name": "Costilla de Adán",
+   "layer": "any",
+   "w": 24,
+   "d": 24,
+   "h": 25,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "a monstera in a cream pot",
+   "dice": "Las hojas vienen agujereadas de fábrica. Como los calcetines.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "palo_madera",
+   "cat": "trastos",
+   "name": "Palo de madera",
+   "layer": "any",
+   "w": 60,
+   "d": 6,
+   "h": 4,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "cara": "Pain",
+   "art": "a plain crooked wooden stick",
+   "dice": "Un palo. No pregunto. Ya he aprendido a no preguntar.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "figura_vegeta",
+   "cat": "frikadas",
+   "name": "Figura de Vegeta",
+   "layer": "top",
+   "w": 14,
+   "d": 14,
+   "h": 40,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Happy",
+   "art": "a collectible anime figure; from a photo, no back sprite",
+   "dice": "Mira a todos por encima del hombro. Mide un palmo.",
+   "v4": true,
+   "back": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "panuelos_monton",
+   "cat": "trastos",
+   "name": "Montón de pañuelos",
+   "layer": "any",
+   "w": 16,
+   "d": 13,
+   "h": 7,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a crumpled pile of used tissues",
+   "dice": "Prefiero no saber. Esto se coge con dos dedos.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "caja_panuelos",
+   "cat": "trastos",
+   "name": "Caja de pañuelos",
+   "layer": "top",
+   "w": 18,
+   "d": 10,
+   "h": 15,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "a white tissue box with a tissue pulled out",
+   "dice": "La alergia, dice. En enero.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "papelera",
+   "cat": "trastos",
+   "name": "Papelera",
+   "layer": "floor",
+   "w": 18,
+   "d": 18,
+   "h": 24,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "an empty black mesh waste bin",
+   "dice": "Una papelera. Por si algún día se usa.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "papelera_llena",
+   "cat": "trastos",
+   "name": "Papelera llena",
+   "layer": "floor",
+   "w": 18,
+   "d": 18,
+   "h": 24,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a black mesh waste bin full of paper",
+   "dice": "Llena hasta arriba. Vaciarla sería mucho pedir.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "cuadro_maria",
+   "cat": "pared",
+   "name": "Cuadro de María",
+   "layer": "wall",
+   "w": 34,
+   "d": 0,
+   "h": 28,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "cara": "Inspired",
+   "art": "a small abstract blue painting; by code",
+   "dice": "Lo pinté yo. Azul. No me preguntes de qué es, que tampoco lo sé.",
+   "v4": true
+  },
+  {
+   "id": "diana",
+   "cat": "pared",
+   "name": "Diana de dardos",
+   "layer": "wall",
+   "w": 30,
+   "d": 0,
+   "h": 30,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "cara": "Normal",
+   "art": "a dartboard; by code",
+   "dice": "Con un solo dardo. El resto estará en alguna pared.",
+   "v4": true
+  },
+  {
+   "id": "reloj",
+   "cat": "pared",
+   "name": "Reloj de pared",
+   "layer": "wall",
+   "w": 22,
+   "d": 0,
+   "h": 22,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "cara": "Normal",
+   "art": "a wall clock; by code",
+   "dice": "Parado a las cuatro y diez. Aquí abajo da igual.",
+   "v4": true
+  },
+  {
+   "id": "espejo",
+   "cat": "pared",
+   "name": "Espejo",
+   "layer": "wall",
+   "w": 22,
+   "d": 0,
+   "h": 40,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "cara": "Pain",
+   "art": "a tall wall mirror; by code",
+   "dice": "Un espejo. Justo lo que necesitaba este sótano: verse.",
+   "v4": true
+  },
+  {
+   "id": "guirnalda",
+   "cat": "pared",
+   "name": "Guirnalda de luces",
+   "layer": "wall",
+   "w": 70,
+   "d": 0,
+   "h": 16,
+   "flat": true,
+   "turn": "tilt",
+   "fits": [
+    "pared"
+   ],
+   "cara": "Happy",
+   "art": "a string of light bulbs; by code",
+   "dice": "Luces de colores. Que parezca que aquí abajo hay alegría.",
+   "enciende": {
+    "capa": true
+   },
+   "v4": true
+  },
+  {
+   "id": "alfombra",
+   "cat": "muebles",
+   "name": "Alfombra",
+   "layer": "floor",
+   "w": 90,
+   "d": 60,
+   "h": 0,
+   "turn": "flip",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "alfombra": true,
+   "cara": "Normal",
+   "art": "a patterned rug lying on the floor; by code",
+   "dice": "Tapa la mancha. La otra mancha, no.",
+   "v4": true,
+   "back": true
+  },
+  {
+   "id": "puf",
+   "cat": "muebles",
+   "name": "Puf",
+   "layer": "floor",
+   "w": 22,
+   "d": 22,
+   "h": 16,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "cara": "Normal",
+   "art": "a round mustard pouf; by code",
+   "offers": {
+    "tag": "silla",
+    "superficies": [
+     {
+      "z": 15,
+      "x0": 4,
+      "y0": 4,
+      "x1": 18,
+      "y1": 18
+     }
+    ]
+   },
+   "dice": "Se sienta uno y ya no se levanta. Mejor no probarlo.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "sillon_gamer",
+   "cat": "muebles",
+   "name": "Sillón gamer",
+   "layer": "floor",
+   "w": 26,
+   "d": 26,
+   "h": 50,
+   "turn": "flip",
+   "back": true,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "cara": "Pain",
+   "art": "a black and red gaming chair; by code",
+   "dice": "Más caro que mi coche. Y aguanta mejor.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "consola",
+   "cat": "frikadas",
+   "name": "Consola y mando",
+   "layer": "any",
+   "w": 26,
+   "d": 20,
+   "h": 6,
+   "turn": "flip",
+   "back": true,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "a black game console with a controller; by code",
+   "dice": "Un solo mando. No digo nada.",
+   "v4": true
+  },
+  {
+   "id": "mini_nevera",
+   "cat": "muebles",
+   "name": "Mini nevera",
+   "layer": "floor",
+   "w": 24,
+   "d": 24,
+   "h": 34,
+   "turn": "flip",
+   "back": true,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "cara": "Happy",
+   "art": "a small white fridge; by code",
+   "offers": {
+    "tag": "mesa",
+    "superficies": [
+     {
+      "z": 34,
+      "x0": 2,
+      "y0": 2,
+      "x1": 22,
+      "y1": 22
+     }
+    ]
+   },
+   "dice": "Dentro hay Pepsi y una cosa verde que antes no lo era.",
+   "v4": true
+  },
+  {
+   "id": "botellines",
+   "cat": "comida",
+   "name": "Botellines de la Champions Beer",
+   "layer": "top",
+   "w": 18,
+   "d": 14,
+   "h": 19,
+   "turn": "flip",
+   "back": true,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Normal",
+   "art": "four small brown beer bottles; by code",
+   "dice": "Cuatro botellines. Para los que vienen, dice.",
+   "v4": true
+  },
+  {
+   "id": "perchero",
+   "cat": "muebles",
+   "name": "Perchero",
+   "layer": "floor",
+   "w": 18,
+   "d": 18,
+   "h": 64,
+   "turn": "none",
+   "back": false,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "cara": "Normal",
+   "art": "a wooden coat stand; by code",
+   "dice": "Un perchero. Por si un día le da por colgar algo.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "ventilador",
+   "cat": "muebles",
+   "name": "Ventilador viejo",
+   "layer": "floor",
+   "w": 22,
+   "d": 22,
+   "h": 44,
+   "turn": "flip",
+   "back": true,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras"
+   ],
+   "cara": "Pain",
+   "art": "an old standing fan; by code",
+   "enciende": {
+    "aspas": {
+     "x": 11,
+     "y": 13.8,
+     "z": 32,
+     "r": 9
+    }
+   },
+   "dice": "Mueve el aire de un lado a otro. El aire sigue siendo el mismo.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "peluche_camara",
+   "cat": "trastos",
+   "name": "Oso de peluche",
+   "layer": "any",
+   "w": 24,
+   "d": 22,
+   "h": 32,
+   "turn": "flip",
+   "back": true,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a teddy bear whose eyes are two camera lenses, red pilot light, antenna and cable at the back; by code (tools/modelos_capitulos.py)",
+   "dice": "Un oso. Con una cámara en cada ojo y una lucecita roja. Lo pongo mirando a la pared.",
+   "v4": true
+  },
+  {
+   "id": "palomitas",
+   "cat": "comida",
+   "name": "Cubo de palomitas",
+   "layer": "any",
+   "w": 16,
+   "d": 16,
+   "h": 20,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a striped cinema bucket full of popcorn; by code",
+   "dice": "Cuatro cubos. Dice que vienen todos. Yo pongo los cuatro.",
+   "v4": true,
+   "sombra": "redonda"
+  },
+  {
+   "id": "regalo_agujeros",
+   "cat": "trastos",
+   "name": "Regalo con agujeros",
+   "layer": "any",
+   "w": 24,
+   "d": 22,
+   "h": 18,
+   "turn": "none",
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Surprised",
+   "art": "a wrapped gift with holes poked in the paper; by code",
+   "dice": "Tiene agujeros en la tapa. No voy a acercar la oreja.",
+   "v4": true
+  },
+  {
+   "id": "regalo_tubo",
+   "cat": "trastos",
+   "name": "Regalo largo",
+   "layer": "any",
+   "w": 36,
+   "d": 11,
+   "h": 11,
+   "turn": "flip",
+   "back": true,
+   "fits": [
+    "dentro",
+    "fuera",
+    "cacharras",
+    "encima"
+   ],
+   "cara": "Pain",
+   "art": "a long tube wrapped in duct tape with a red bow; by code",
+   "dice": "Largo y envuelto en cinta americana. Mejor no lo agito.",
+   "v4": true
+  },
+  {
+   "id": "botellin_vacio",
+   "cat": "trastos",
+   "name": "Botellín vacío",
+   "layer": "any",
+   "w": 22,
+   "d": 8,
+   "h": 6,
+   "turn": "none",
+   "fits": [],
+   "cara": "Pain",
+   "art": "an empty beer bottle lying on its side; by code",
+   "dice": "Este tampoco.",
+   "v4": true
+  },
+  {
+   "id": "bolsa_patatas",
+   "cat": "trastos",
+   "name": "Bolsa de patatas",
+   "layer": "any",
+   "w": 18,
+   "d": 14,
+   "h": 7,
+   "turn": "none",
+   "fits": [],
+   "cara": "Pain",
+   "art": "an empty crumpled crisp bag; by code",
+   "dice": "Vacía, y con un dardo dentro. No pregunto.",
+   "v4": true
+  },
+  {
+   "id": "escombro",
+   "cat": "trastos",
+   "name": "Escombros",
+   "layer": "any",
+   "w": 30,
+   "d": 24,
+   "h": 14,
+   "turn": "none",
+   "fits": [],
+   "cara": "Pain",
+   "art": "a heap of broken brick and plaster; by code",
+   "dice": "Esto antes era una pared. O una mesa. Ya no se sabe.",
+   "v4": true
+  },
+  {
+   "id": "tabla_rota",
+   "cat": "trastos",
+   "name": "Balda partida",
+   "layer": "any",
+   "w": 40,
+   "d": 16,
+   "h": 5,
+   "turn": "none",
+   "fits": [],
+   "cara": "Pain",
+   "art": "a shelf board broken in two, with nails; by code",
+   "dice": "Una balda. Partida con algo. O contra algo.",
+   "v4": true
+  }
+ ]
+}
